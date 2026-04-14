@@ -1,7 +1,7 @@
 
 Interview answer: clear concepts → tradeoffs → real-world usage → code → interview depth.
 
-
+//// installl - npm install @grpc/grpc-js @grpc/proto-loader
 
 
 
@@ -14,6 +14,15 @@ Interview answer: clear concepts → tradeoffs → real-world usage → code →
 | Contract        | No strict schema | Strong schema (.proto files)      |
 | Browser Support | Native           | Needs proxy (like Envoy)          |
 | Use Case        | Public APIs      | Internal microservices            |
+
+
+Key FAANG Insight
+Use REST for:
+Public APIs (mobile/web apps)
+Simplicity & readability
+Use gRPC for:
+Microservices communication (Google, Netflix, Uber)
+High-performance systems (real-time, low latency)
 
 
 
