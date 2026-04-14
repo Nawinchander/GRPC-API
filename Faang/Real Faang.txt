@@ -1,0 +1,19 @@
+Real FAANG Scenario Question
+
+👉 “Design a real-time chat system”
+
+Expected Answer:
+
+Use gRPC bidirectional streaming
+Use Kafka for async processing
+Use Redis for presence tracking
+Use WebSocket for frontend
+🔥 Pro Tip (Interview Gold)
+
+“gRPC is not a replacement for REST — it complements it.”
+
+Use:
+
+REST → Client-facing APIs
+gRPC → Service-to-service communication
+
