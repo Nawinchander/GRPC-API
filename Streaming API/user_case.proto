@@ -1,0 +1,6 @@
+rpc GetNotifications (UserRequest) returns (stream Notification);
+
+message Notification {
+  string message = 1;
+}
+
