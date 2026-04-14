@@ -1,0 +1,10 @@
+rpc UploadLogs (stream Log) returns (UploadStatus);
+
+message Log {
+  string message = 1;
+}
+
+message UploadStatus {
+  string status = 1;
+}
+
