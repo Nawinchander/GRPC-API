@@ -3,3 +3,7 @@ Package-lock.json
 /// removing the packages 
 
 package.json
+
+// so the memories can be better
+
+node_modules
