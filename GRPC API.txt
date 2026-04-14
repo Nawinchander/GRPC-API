@@ -1,0 +1,19 @@
+
+Interview answer: clear concepts → tradeoffs → real-world usage → code → interview depth.
+
+
+
+
+
+| Feature         | REST API         | gRPC API                          |
+| --------------- | ---------------- | --------------------------------- |
+| Protocol        | HTTP/1.1         | HTTP/2                            |
+| Data Format     | JSON (text)      | Protocol Buffers (binary)         |
+| Speed           | Slower           | Very fast (binary + multiplexing) |
+| Streaming       | Limited          | Full support (bi-directional)     |
+| Contract        | No strict schema | Strong schema (.proto files)      |
+| Browser Support | Native           | Needs proxy (like Envoy)          |
+| Use Case        | Public APIs      | Internal microservices            |
+
+
+
