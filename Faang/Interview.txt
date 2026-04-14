@@ -1,0 +1,28 @@
+FAANG-Level System Design Insight
+
+Why gRPC is used in FAANG:
+
+Google → invented gRPC → internal RPC communication
+Netflix → microservices communication
+Uber → real-time dispatch system
+Amazon → internal service mesh
+
+
+Interview Questions (FAANG Level)
+1. When would you choose gRPC over REST?
+
+Answer:
+
+Low latency required
+Internal microservices
+Streaming needed
+Strong contract required
+2. Why is gRPC faster?
+
+Answer:
+
+Uses HTTP/2 (multiplexing)
+Binary serialization (protobuf)
+Smaller payload size
+
+
