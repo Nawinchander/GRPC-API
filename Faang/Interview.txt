@@ -25,4 +25,25 @@ Uses HTTP/2 (multiplexing)
 Binary serialization (protobuf)
 Smaller payload size
 
+3. What are drawbacks of gRPC?
+
+Answer:
+
+Hard to debug (binary)
+Not browser-friendly
+Learning curve (.proto)
+4. How do you secure gRPC?
+
+Answer:
+
+TLS encryption
+JWT metadata
+API gateway (Envoy)
+5. REST vs gRPC in Microservices?
+
+Answer:
+
+External → REST
+Internal → gRPC
+
 
